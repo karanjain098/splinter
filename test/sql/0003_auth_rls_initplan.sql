@@ -3,7 +3,7 @@ begin;
 
     savepoint a;
 
-    -- No issues
+    -- No issuesfgdfs
     select * from lint."0003_auth_rls_initplan";
 
     -- Create a view that exposes auth.users
